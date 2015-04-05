@@ -51,32 +51,63 @@ header p {
     margin: auto;
 }
 
-
-
-#contact {
+.contact {
     font-weight: 100;
     font-size: 2.5em;
     text-align: center;
     padding: .6em;
 }
 
-.fa-paper-plane {
-    color: #00c5a2;
-    font-size: 1em;
-    text-align: center;
-}
-
-#contact h2 {
-    font-family: 'axis';
-    font-size: .8em;
-    padding: .2em;
-}
-
-#contact p {
+.contact p {
     font-family: 'clear-sans', sans-serif;
     font-weight: 300;
     line-height: 1.6em
 }
 
+.fa {
+    color: #00c5a2;
+    font-size: 1em;
+    text-align: center;
+}
+
+.experience {
+    text-align: center;
+    font-weight: 100;
+    font-size: 2.5em;
+    padding: .6em;
+}
+
+h2 {
+    font-family: 'axis';
+    font-size: .8em;
+    padding: .2em;
+}
+
+h3 {
+    font-family: 'axis';
+    font-size: 1.2em;
+    padding: .3em 0 .3em 0;
+    text-align: left;
+    color: #00c5a2;
+}
+
+h4 {
+    font-family: 'axis';
+    font-size: .9em;
+    padding: .2em 0 .8em 0;
+    text-align: left;
+}
+
+.experience p {
+    font-family: 'clear-sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.4em;
+    padding-bottom: 1em;
+}
+
+
+.experience p {
+    text-align: left;
+}
 
 
