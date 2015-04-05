@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     border: 0;
+    font-family: 'clear-sans', sans-serif;
+    font-size: 14px;
 }
 
 @font-face {
@@ -14,8 +16,13 @@
 }
 
 @font-face {
-  font-family: 'clear-san';
+  font-family: 'clear-sans';
   src: url('fonts/clear-sans.ttf')  format('truetype'), /* Safari, Android, iOS */
+
+}
+
+#contact {
+    font-weight: 300;
 
 }
 
