@@ -21,6 +21,37 @@
 
 }
 
+header{
+    background: url("../img/dark-bg.jpg") repeat;
+    padding: 2em;
+}
+
+header h1 {
+    color: #00c5a2;
+    font-family: 'axis';
+    text-align: center;
+    font-size: 3em;
+    padding: .3em;
+}
+
+header p {
+    color: white;
+    font-weight: 100;
+    line-height: 1.3em
+}
+
+.circle {
+ width: 20em;
+    height: 20em;
+    border-radius: 10em;
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    background: url("../img/kelly.jpg") no-repeat;
+    margin: auto;
+}
+
+
+
 #contact {
     font-weight: 300;
 
