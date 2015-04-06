@@ -21,6 +21,11 @@
 
 }
 
+#container {
+    margin: auto;
+    width: 100%;
+}
+
 header{
     background: url("../img/dark-bg.jpg") repeat;
     padding: 2em;
@@ -51,30 +56,9 @@ header p {
     margin: auto;
 }
 
-.contact {
-    font-weight: 100;
-    font-size: 2.5em;
-    text-align: center;
-    padding: .6em;
-}
-
-.contact p {
+#main{
     font-family: 'clear-sans', sans-serif;
     font-weight: 300;
-    line-height: 1.6em
-}
-
-.fa {
-    color: #00c5a2;
-    font-size: 1em;
-    text-align: center;
-}
-
-.experience {
-    text-align: center;
-    font-weight: 100;
-    font-size: 2.5em;
-    padding: .6em;
 }
 
 h2 {
@@ -99,26 +83,63 @@ h4 {
     text-align: left;
 }
 
+.section-header {
+    font-size: 2.5em; /*Controls Font Awesome Icons*/
+    text-align: center;
+    padding: .6em;
+}
+
+.contact p {
+    line-height: 1.6em
+}
+
+.fa {
+    color: #00c5a2;
+    font-size: 1em;
+    text-align: center;
+}
+
 .experience p {
-    font-family: 'clear-sans', sans-serif;
-    font-weight: 300;
     line-height: 1.4em;
     padding-bottom: 1em;
     text-align: left;
 }
 
-.writing {
-    text-align: center;
-    font-weight: 100;
-    font-size: 2.5em;
-    padding: .6em;
+.writing p {
+    line-height: 1.3em;
+    text-align: left;
+    padding-bottom: 1em;
 }
 
-.writing p {
-    font-family: 'clear-sans', sans-serif;
+.education p {
+    font-family: 'clear-sans', sans-serif; /*Education section not inheriting from #main?*/
     font-weight: 300;
     line-height: 1.3em;
     text-align: left;
     padding-bottom: 1em;
 }
+
+.education li {
+    font-family: 'clear-sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.3em;
+    text-align: left;
+}
+
+.education ul {
+    padding-left: 2em;
+}
+
+.skills li {
+    line-height: 1.3em;
+    text-align: left;
+}
+
+.skills ul {
+    padding-left: 2em;
+}
+
+
+
+
 
