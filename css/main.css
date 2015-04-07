@@ -159,11 +159,13 @@ ul {
 .skills {
     display: inline-block;
     width: 42%;
+     vertical-align:top;
 }
 
 .interests {
     display: inline-block;
     width: 42%;
+     vertical-align:top;
 }
 
 } /* ----------- End 650px media queries ----------- */
