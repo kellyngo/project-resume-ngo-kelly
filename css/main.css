@@ -148,6 +148,26 @@ ul {
     color: #333333;
 }
 
+/* ----------- Start 650px media queries ----------- */
+
+@media (min-width: 650px) {
+
+.si-wrapper {
+    text-align: center;
+}
+
+.skills {
+    display: inline-block;
+    width: 42%;
+}
+
+.interests {
+    display: inline-block;
+    width: 42%;
+}
+
+} /* ----------- End 650px media queries ----------- */
+
 
 
 
