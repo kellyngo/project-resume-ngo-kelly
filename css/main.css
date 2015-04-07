@@ -170,6 +170,28 @@ ul {
 
 } /* ----------- End 650px media queries ----------- */
 
+/* ----------- Start 775px media queries ----------- */
+
+@media (min-width: 775px) {
+
+.we-wrapper {
+    text-align: center;
+}
+
+.writing {
+    display: inline-block;
+    width: 42%;
+     vertical-align:top;
+}
+
+.education {
+    display: inline-block;
+    width: 42%;
+     vertical-align:top;
+}
+
+} /* ----------- End 775px media queries ----------- */
+
 
 
 
