@@ -4,5 +4,7 @@ $(document).ready(function(){
         $('.contact').animatescroll({scrollSpeed:2000,easing:'easeOutBack'});
     });
 
+    window.sr = new scrollReveal();
+
 
 });
