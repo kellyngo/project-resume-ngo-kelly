@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     $('button').click(function(){
-        $('.contact').animatescroll({scrollSpeed:2000,easing:'easeOutBack'});
+        $('header').animatescroll({scrollSpeed:4000,easing:'easeOutBack'});
     });
 
     window.sr = new scrollReveal();
